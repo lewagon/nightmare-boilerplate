@@ -22,6 +22,24 @@ You can push this repo to GitHub if you wish to share your work or make a backup
 Just go to [this page](https://help.github.com/articles/creating-a-new-repository/).
 You can also use the [Mac client](https://mac.github.com/) or [the Windows client](https://windows.github.com/).
 
+## Start coding
+
+Open `script.js` in Sublime Text, and write some JavaScript code. You can
+then test your script with the terminal:
+
+```bash
+$ node script.js
+```
+
+When you are happy with your code, do not forget to commit it!
+
+```bash
+$ git add script.js
+$ git commit -m "A description of what I just did."
+```
+
+(Take 10 seconds to think of meaningful commit messages, it's very important)
+
 ## Deploy and run on Heroku
 
 First create a Heroku app for your bot.
