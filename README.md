@@ -4,7 +4,25 @@ You need [Node.js](https://nodejs.org/) and [Phantom.js](http://phantomjs.org/)
 installed on your computer. You also need **git**, a Heroku account and
 the [Heroku toolbelt](https://toolbelt.heroku.com/).
 
-## Deploy on Heroku
+## Getting started
+
+First, [download this repository ZIP](https://github.com/lewagon/nightmare-boilerplate/archive/master.zip).
+
+Unzip it, and move the folder from your Download repository to where you usually code.
+Open the folder in the terminal (you can `cd` to it). Once in that folder, run:
+
+```bash
+$ git init
+$ git commit -m "Starting from @lewagon's boilerplate"
+```
+
+We need this folder to be a git repository as we're going to deploy it to Heroku.
+
+You can push this repo to GitHub if you wish to share your work or make a backup.
+Just go to [this page](https://help.github.com/articles/creating-a-new-repository/).
+You can also use the [Mac client](https://mac.github.com/) or [the Windows client](https://windows.github.com/).
+
+## Deploy and run on Heroku
 
 First create a Heroku app for your bot.
 
