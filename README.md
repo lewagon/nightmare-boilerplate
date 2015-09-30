@@ -4,6 +4,11 @@ You need [Node.js](https://nodejs.org/) and [Phantom.js](http://phantomjs.org/)
 installed on your computer. You also need **git**, a Heroku account and
 the [Heroku toolbelt](https://toolbelt.heroku.com/).
 
+## Version
+
+This boilerplate works with version **1.8** of Nightmare JS, not the newest `2.x` version.
+To get the documentation of the 1.8 version, follow [this link](https://github.com/segmentio/nightmare/tree/baef06b3f47362be8001dbd946305d4b62b83ec6).
+
 ## Getting started
 
 First, [download this repository ZIP](https://github.com/lewagon/nightmare-boilerplate/archive/master.zip).
