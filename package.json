@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "nightmare": "^1.8.2"
+    "nightmare": "1.8.2"
   },
   "private": true
 }
