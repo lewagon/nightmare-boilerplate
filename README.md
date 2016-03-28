@@ -19,6 +19,7 @@ Open the folder in the terminal (you can `cd` to it). Once in that folder, run:
 ```bash
 $ git init
 $ git commit -m "Starting from @lewagon's boilerplate"
+$ npm install
 ```
 
 We need this folder to be a git repository as we're going to deploy it to Heroku.
