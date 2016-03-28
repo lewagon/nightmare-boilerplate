@@ -35,6 +35,8 @@ then test your script with the terminal:
 
 ```bash
 $ node script.js
+# Or for more debugging power:
+$ DEBUG=nightmare node script.js
 ```
 
 When you are happy with your code, do not forget to commit it!

@@ -2,10 +2,10 @@ var Nightmare = require('nightmare');
 
 // TODO: Change this code :)
 
-new Nightmare({ weak: false })
-  .goto("http://www.lewagon.org")
+new Nightmare({ weak: false, webSecurity: false })
+  .goto("https://www.lewagon.com")
   .evaluate(function () {
-      return document.querySelector('.top-banner').innerText;
+      return document.querySelector('.banner-content h1').innerText;
     },
     function(topBannerText) {
       console.log(topBannerText);
